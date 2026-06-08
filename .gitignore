@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env
+
+# Dados e modelos (o notebook baixa o dataset pela URL, não precisa versionar)
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+data/
+models/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
